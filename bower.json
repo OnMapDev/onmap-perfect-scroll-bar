@@ -16,7 +16,7 @@
     "Drew Miller"
   ],
   "license": "MIT",
-  "homepage": "https://github.com/itsdrewmiller/angular-perfect-scrollbar",
+  "homepage": "https://github.com/OnMapDev/onmap-perfect-scroll-bar",
   "ignore": [
     "**/.*",
     "node_modules",
