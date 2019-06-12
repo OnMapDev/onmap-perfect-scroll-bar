@@ -17,8 +17,8 @@ angular.module('perfect_scrollbar', []).directive('perfectScrollbar',
 
       for (var i=0, l=psOptions.length; i<l; i++) {
         var opt = psOptions[i];
-        if ($attr[opt] !== undefined) {
-          options[opt] = $parse($attr[opt])();
+        if ($attr[opt.toLowerCase()] !== undefined) {
+          options[opt] = $parse($attr[opt.toLowerCase()])();
         }
       }
 
