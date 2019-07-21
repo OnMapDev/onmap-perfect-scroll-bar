@@ -23,7 +23,7 @@ angular.module('perfect_scrollbar', []).directive('perfectScrollbar',
       }
 
       $scope.$evalAsync(function() {
-        if($elem.height()<=50 && $(".gameForAll").height()==576)
+        if($(".gameForAll").height()==576)
         {
             options["scrollYMarginOffset"]=10
         }
